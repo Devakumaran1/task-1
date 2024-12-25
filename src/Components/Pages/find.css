@@ -1,0 +1,181 @@
+ .background{
+    width: 100vw;
+    background-color: rgb(215, 239, 215);
+    height: 200px;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+.find-title{
+    font-weight: 500;
+    font-size: 28px
+}
+.location{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+
+}
+ 
+  .select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .select-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 20px;
+    color: gray;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .select-wrapper select {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* appearance: none; */
+    color: gray ;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    width: 300px;
+  }
+  
+  .input-wrapper input {
+    width: 90%;
+    padding: 10px 0px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-wrapper i {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+  }
+  
+ .filter-section{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+ } 
+ .filter-section select{
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 18px;
+    color: rgb(82, 81, 81);
+    border-radius: 7px;
+    background: #d2d1d1;
+    border: none;
+ }
+ .green{
+    background: rgb(189, 221, 189) !important;
+ }
+
+ .selected-filter{
+    display: flex;
+    margin: 3rem 0;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    gap: 20px;
+ }
+.selected-filter div{
+    padding: 10px 15px;
+    background: #d2d1d1;
+    
+    border-radius: 20px;
+
+}
+.selected-filter div i{
+    font-size: 20px;
+   /* margin: 10px; */
+}
+
+/* card */
+.card-continer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+   
+}
+.card{
+    background: rgb(230, 209, 171);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.card-img{
+    margin: auto;
+    position: relative;
+}
+.card-img img{
+    width: 50%;
+    border-radius: 100%;
+}
+.card-img span{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    transform: translateY(50%,50%);
+    background: #6a6969;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.card-img span i{
+    color: orange;
+}
+
+.card p ,.card h2{
+    margin: 10px;
+}
+.consultant{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.consultant div{
+    border: 1px solid #6a6969;
+    padding: 7px 13px;
+    border-radius: 15px;
+   
+}
+.consultant div p{
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons button{
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+.buttons button:nth-last-child(1){
+    background-color: rgb(36, 74, 36);
+    color: white;
+}
